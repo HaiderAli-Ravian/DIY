@@ -56,10 +56,10 @@ function Home() {
 
               <div data-aos="fade-right" className="mt-10">
                 <Link
-                  href={"/signup"}
-                  className="btn bg-[#1B94A6] text-white text-xl w-40 border-0 hover:bg-red-600 hover:scale-110"
+                  href={"/auth/login"}
+                  className="btn bg-[#1B94A6] text-white text-xl w-40 border-0 hover:scale-110"
                 >
-                  Sign Up Now
+                  Sign In Now
                 </Link>
               </div>
             </div>
@@ -77,7 +77,7 @@ function Home() {
       </div>
 
       <AboutUs showHeroSection={false} />
-      <Services showHeroSection={false} limit={3} />
+      <Services />
 
       <div className="bg-white pb-10">
         <div className="bg-white flex flex-col justify-center items-center text-black p-10">
